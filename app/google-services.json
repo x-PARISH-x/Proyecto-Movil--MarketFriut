@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "373488950805",
+    "project_id": "carritofrutas",
+    "storage_bucket": "carritofrutas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373488950805:android:8472a47740ce04c491381c",
+        "android_client_info": {
+          "package_name": "com.example.marketfruit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfDR7R8YfqMyRMMFMj_eQbGQJTlWbreZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

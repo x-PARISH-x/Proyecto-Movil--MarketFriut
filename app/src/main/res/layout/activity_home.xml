@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fondofruta"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="BIENVENIDO A MARKETFRUIT :D"
+        android:textAlignment="center"
+        android:textColor="#31EB4E"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    
+    <Button
+
+        android:id="@+id/botonusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="USUARIO"
+        android:background="@drawable/botones1"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_above="@id/botonadministrador"/>
+
+    <Button
+
+        android:id="@+id/botonadministrador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:text="ADMINISTRADOR"
+        android:background="@drawable/botones2"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+</RelativeLayout>
